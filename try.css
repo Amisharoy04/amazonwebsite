@@ -1,0 +1,28 @@
+div{
+  height: 100px;
+  width: 100px;  
+    background-color: bisque;
+    border: 10px solid white;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation:  coloranimate 4s ease-in 1s infinite normal;
+}
+    @keyframes coloranimate {
+    from {
+             background-color:yellow;
+             left: 0px;
+             top: 0px;
+        }
+        to{
+            background-color: blue;
+        }
+       
+
+        
+    }
+    
+    
+  
+  
